@@ -16,7 +16,7 @@
     "noEmit": true,
     "jsx": "react-jsx",
     "plugins": [{ "name": "typescript-plugin-css-modules" }],
-    "baseUrl": "."
+    "baseUrl": "src"
   },
   "include": ["src", "src/additional.d.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]

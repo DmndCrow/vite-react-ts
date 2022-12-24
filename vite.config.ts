@@ -10,6 +10,7 @@ export default defineConfig({
     alias: {
       features: resolve(__dirname, 'src/features'),
       components: resolve(__dirname, 'src/components'),
+      modules: resolve(__dirname, 'src/modules'),
       hooks: resolve(__dirname, 'src/hooks'),
       contexts: resolve(__dirname, 'src/contexts'),
       services: resolve(__dirname, 'src/services'),
